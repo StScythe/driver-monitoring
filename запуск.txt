@@ -1,0 +1,18 @@
+# Перейдите в новую директорию
+cd C:\driver-monitoring
+
+# Создайте новое виртуальное окружение
+python -m venv venv
+
+# Активируйте
+venv\Scripts\activate
+
+# Установите зависимости
+pip install opencv-python==4.12.0.88
+pip install numpy==2.2.6
+pip install mediapipe==0.10.14
+pip install pandas==2.3.3
+pip install matplotlib==3.10.7
+
+# Запустите с патчем
+python scripts\run.py

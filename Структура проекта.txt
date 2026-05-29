@@ -1,0 +1,47 @@
+driver-monitoring/
+├── scripts/
+│   └── run.py                      # Точка входа
+│
+├── src/
+│   └── dms/                        # MVP-ядро
+│       ├── __init__.py
+│       ├── config.py               # Загрузка коэффициентов K
+│       ├── extractor.py            # Извлечение метрик лица
+│       ├── polytope.py             # 1D и 2D политопы
+│       ├── perclos.py              # PERCLOS
+│       ├── criticality.py          # Оценка критичности
+│       ├── calibrator.py           # Калибровка 30 сек
+│       ├── database.py             # SQLite
+│       ├── visualizer.py           # Визуализация
+│       ├── reporter.py             # Отчеты
+│       ├── analyzer.py             # Анализ состояния
+│       └── system.py               # Главный класс
+│
+├── src/tests/                      # Приемочные тесты
+│   ├── test_formulas.py
+│   ├── test_polytope.py
+│   ├── test_perclos.py
+│   ├── test_criticality.py
+│   └── test_database.py
+│
+├── notebooks/                      # Jupyter Notebooks
+│   ├── VolkovDV/                   # Инженерные ноутбуки
+│   │   └── mvp_system.ipynb
+│   └── VolkovaNV/                  # Научные ноутбуки
+│       ├── 01_dataset_preparation.ipynb
+│       ├── 02_scientific_analysis.ipynb
+│       ├── 03_1d_polytope_single.ipynb
+│       ├── 04_1d_polytope_batch.ipynb
+│       ├── 05_2d_polytope_single.ipynb
+│       ├── 06_2d_polytope_batch.ipynb
+│       ├── 07_distraction_drowsiness.ipynb
+│       ├── 08_4systems_single.ipynb
+│       └── 09_deq_perclos_prediction.ipynb
+│
+├── data/
+│   └── scientific_coefficients.json
+│
+├── .gitignore
+├── pyproject.toml
+├── requirements.txt
+└── README.md

@@ -1,0 +1,43 @@
+{
+  "coefficients": {
+    "K_mar": {
+      "value": 7.2614202300688815,
+      "yawn_value": 0.5277806493106864,
+      "no_yawn_median": 0.0726828406274016,
+      "mvp_formula": "Порог_водителя = mar_калибровки * 7.26"
+    },
+    "K_nose_chin_distance": {
+      "value": 1.383512165238964,
+      "yawn_value": 1.1931394053408901,
+      "no_yawn_median": 0.8623989259500352,
+      "mvp_formula": "Порог_водителя = nose_chin_distance_калибровки * 1.38"
+    }
+  },
+  "statistical_results": {
+    "mar": {
+      "p_value": 0.0,
+      "is_significant": 1,
+      "effect_size": -0.9967727606690913,
+      "mean_yawn": 0.620759648633898,
+      "mean_no_yawn": 0.07535207793599745,
+      "median_yawn": 0.6036956290238636,
+      "median_no_yawn": 0.0726828406274016
+    },
+    "nose_chin_distance": {
+      "p_value": 0.0,
+      "is_significant": 1,
+      "effect_size": -0.939908792817902,
+      "mean_yawn": 1.1863874774401888,
+      "mean_no_yawn": 0.8825987575069857,
+      "median_yawn": 1.1931394053408901,
+      "median_no_yawn": 0.8623989259500352
+    }
+  },
+  "K_EAR": {
+    "value": 0.6,
+    "source": "Soukupova & Cech (2016)",
+    "formula": "Порог_EAR = EAR_базовый * 0.6"
+  },
+  "mar_formula": "Dlib-style: (|P80-P82|+|P13-P14|+|P312-P317|)/(3*|P78-P308|)",
+  "timestamp": "2026-05-23T13:33:04.795667"
+}
