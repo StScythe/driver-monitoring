@@ -15,6 +15,7 @@ https://disk.yandex.ru/d/wiDcL4R7R69gFQ
 > https://github.com/StScythe/driver-monitoring/edit/main/notebooks/VolkovaNV
 >
 > 🛠 **Инженерная реализация** — ВКР Волкова Д.В. «Разработка и исследование MVP-ядра системы мониторинга состояния водителя для коммерческого транспорта»
+> https://github.com/StScythe/driver-monitoring/tree/main/notebooks/VolkovDV
 
 ---
 
