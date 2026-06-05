@@ -125,22 +125,20 @@
 
 - Python 3.11 или выше
 - USB-веб-камера (RGB)
-- ОС: Windows 10/11, Ubuntu 20.04+, macOS 11+
+- ОС: Windows 10
 
 ### 4.2. Установка
 
-```bash
 git clone https://github.com/StScythe/driver-monitoring.git
 cd driver-monitoring
 
 python -m venv venv
-source venv/bin/activate      # Linux/macOS
 # venv\Scripts\activate       # Windows
 
 pip install -r requirements.txt
 
 4.3. Запуск
-bash
+
 python scripts/run.py
 4.4. Интерфейс управления
 text
