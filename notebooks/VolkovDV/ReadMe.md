@@ -112,10 +112,8 @@
 ### 4.2. Установка
 git clone https://github.com/StScythe/driver-monitoring.git
 cd driver-monitoring
-
 python -m venv venv
-### venv\Scripts\activate       
-
+venv\Scripts\activate       
 pip install -r requirements.txt
 
 ### 4.3. Запуск
