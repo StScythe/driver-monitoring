@@ -209,7 +209,7 @@ D = |P1 - P152| / |P33 - P263|
 ## 9. Выходные данные для инженерной реализации
 
 Файл `scientific_results_YawnDD/scientific_coefficients.json`:
-
+<pre>
 ```json
 {
   "coefficients": {
@@ -231,8 +231,7 @@ D = |P1 - P152| / |P33 - P263|
     "source": "Soukupova & Cech (2016)"
   }
 }
-
-
+</pre>
 
 **Дата:** 2026-06-05
 **Автор:** Волкова Н.В.
