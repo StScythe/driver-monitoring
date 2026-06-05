@@ -110,7 +110,7 @@
 - ОС: Windows 10
 
 ### 4.2. Установка
-git clone https://github.com/StScythe/driver-monitoring.git
+git clone > https://github.com/StScythe/driver-monitoring.git
 cd driver-monitoring
 python -m venv venv
 venv\Scripts\activate       
