@@ -133,7 +133,7 @@ git clone https://github.com/StScythe/driver-monitoring.git
 cd driver-monitoring
 
 python -m venv venv
-# venv\Scripts\activate       
+### venv\Scripts\activate       
 
 pip install -r requirements.txt
 
@@ -143,7 +143,7 @@ python scripts/run.py
 
 ### 4.4. Интерфейс управления
 
-======================================
+======
 СИСТЕМА МОНИТОРИНГА СОСТОЯНИЯ ВОДИТЕЛЯ
 ======================================
 
