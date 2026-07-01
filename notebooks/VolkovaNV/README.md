@@ -241,7 +241,7 @@ MAR, D, EAR — биометрические данные (ФЗ-152). Храня
 ## 9. Выходные данные для инженерной реализации
 
 Файл `scientific_results_YawnDD/scientific_coefficients.json`:
-
+<pre>
 ```json
 {
   "coefficients": {
@@ -262,8 +262,8 @@ MAR, D, EAR — биометрические данные (ФЗ-152). Храня
     "value": 0.6,
     "source": "Soukupova & Cech (2016)"
   }
-}```
-
+}
+</pre>
 ---
 
 **Дата:** 2026-06-05
