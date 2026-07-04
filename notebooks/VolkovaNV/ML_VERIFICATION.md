@@ -8,6 +8,12 @@
 | Random Forest | 0.999 ± 0.001 | 0.991 ± 0.004 | **0.995 ± 0.003** |
 | SVM (RBF) | 0.999 ± 0.001 | 0.988 ± 0.003 | **0.994 ± 0.002** |
 
+<div align="center">
+  <a href="images/ml_verification.png">
+    <img src="images/ml_verification.png" width="80%">
+  </a>
+</div>
+
 **Ключевые выводы:**
 
 1. **Высокая разделимость:** все модели дают F1 > 0.99.
