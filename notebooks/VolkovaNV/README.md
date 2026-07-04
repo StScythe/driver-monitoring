@@ -180,7 +180,7 @@ D = |P1 - P152| / |P33 - P263|
 
 | Параметр | Значение |
 |:---|:---|
-| Участник | Female #1 |
+| Участник | Female #8 |
 | Mouth Position | Normal-Talking-Yawning |
 | Ethnicity | Middle Eastern |
 | Разрешение на фото | **Да** |
